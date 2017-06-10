@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Ayats</title>
+    </head>
+
+    <body>
+    	<ul>
+        {% for word in words %}
+        	<li>{{ word.arab }}</li>
+        {% endfor %}
+    	</ul>
+    </body>
+
+</html>
